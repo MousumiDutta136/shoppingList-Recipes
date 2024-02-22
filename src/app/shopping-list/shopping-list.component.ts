@@ -14,4 +14,12 @@ new Ingredient('Tomato', 2),
 new Ingredient('Cardamom', 3)
 
 ];
+
+onIngredientAdded(ingredient: Ingredient){
+
+this.ingredients.push(ingredient);
+console.log(ingredient);
+}
+
+
 }
